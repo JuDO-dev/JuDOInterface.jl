@@ -3,6 +3,9 @@ uuid = "d3b3f8d7-7cb8-4d66-8c6c-114c578a6a12"
 authors = ["e-duar-do <72969764+e-duar-do@users.noreply.github.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+
 [compat]
 julia = "1.6"
 
