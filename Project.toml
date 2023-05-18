@@ -1,0 +1,13 @@
+name = "JuDOInterface"
+uuid = "d3b3f8d7-7cb8-4d66-8c6c-114c578a6a12"
+authors = ["e-duar-do <72969764+e-duar-do@users.noreply.github.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
