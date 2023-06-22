@@ -11,6 +11,7 @@ export ConstantInterpolant, LinearInterpolant, LagrangeInterpolant
 include("piecewise_interpolant.jl")
 export PiecewiseInterpolant
 
+abstract type DynamicVariable end
 include("variables.jl")
 export DifferentialVariable, AlgebraicVariable
 

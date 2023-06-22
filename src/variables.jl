@@ -1,4 +1,4 @@
-struct DifferentialVariable{T, S<:Interpolant{T}}
+struct DifferentialVariable{T, S<:Interpolant{T}} <: DynamicVariable
     bounds::Interval{T}
     initial::Interval{T}
     final::Interval{T}
@@ -14,7 +14,7 @@ struct DifferentialVariable{T, S<:Interpolant{T}}
     end
 end
 
-struct AlgebraicVariable{T, S<:Interpolant{T}}
+struct AlgebraicVariable{T, S<:Interpolant{T}} <: DynamicVariable
     bounds::Interval{T}
     start::S
 end
